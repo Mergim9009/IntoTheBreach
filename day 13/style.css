@@ -1,0 +1,58 @@
+body{
+    font-family: fantasy;
+    background-color: rgb(28, 202, 255);
+}
+ul{
+    list-style-type: georgian;
+    border: 1px solid black;
+    color: rgb(192, 0, 0);
+    border-left-color: yellow;
+
+}
+ul li{
+
+    border-bottom: 1px solid blue;
+}
+ol{    
+    background: #188129;
+    list-style-type: lower-alpha;
+    color: rgb(19, 219, 62);
+
+    /* padding: 5px; */
+}
+ol li{
+
+    background: rgb(43, 11, 160);
+    padding: 10px;
+    margin-left: 30px;
+}
+
+table{
+    /* border-collapse: collapse; */
+}
+td,th{
+    border: 1px solid yellow;
+    padding: 5px;
+    
+}
+
+tbody tr:nth-child(odd){
+    background-color: burlywood;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(36, 197, 130);
+}
+
+div{
+    overflow: scroll;
+    background-color: chartreuse;
+    width: 300px;
+    height: 150px;
+}
+
+#table{
+    background-color: coral;
+    width: auto;
+    height: auto;
+}
