@@ -1,0 +1,79 @@
+/* descendant combinator (space)- select elements inside other elements (like a parent and a child) */
+body{
+    font-family: fantasy;
+    background-color: rgb(19, 83, 179);
+}
+article p{
+    background-color: rgb(5, 182, 73);
+    color: rgb(150, 10, 22);
+    padding: 20px;
+}
+
+/* 2. child selector  (>) - selects direct children inside an element */
+article > p{
+    background: green;
+}
+
+/*3. general sibling combinator (~) - selects all siblings after an element */
+article ~ p{
+    background: purple;
+    color: black;
+    padding: 20px;
+}
+
+/*4. adjacent sibling combinator (+) - selects the next sibling after an element */
+article + p{
+    background: orange;
+}
+
+/* :first-child - pseudo class we use it when we want to style the first element */
+h1:first-child{
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+}
+
+input{
+    width: 50%;
+}
+input:in-range{
+    border: 3px solid rgb(27, 233, 8);
+}
+input:out-of-range{
+    border: 3px solid red;
+}
+input:required{
+    background-color: rgb(41, 120, 240);
+}
+input:focus{
+    background-color: yellow;
+}
+
+input[name="name"]:valid{
+    border: 2px solid green;
+}
+input[name="name"]:invalid{
+    border: 2px solid rgb(214, 1, 1);
+}
+span:first-of-type{
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+#p1::first-line{
+    background-color: white;
+    color: blue;
+    font-size: 40px;
+}
+/* #p1::before{
+    content: url("done-icon\ \(1\).webp")
+} */
+
+::selection{
+    color: black;
+    background: beige;
+}
+div{
+    opacity: 0.5;
+}
