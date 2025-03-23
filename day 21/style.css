@@ -1,0 +1,97 @@
+/* Set up the body to cover the entire screen
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 40%, rgba(9, 24, 38, 1) 60%, rgba(0, 0, 0, 1) 100%);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Galaxy stars effect */
+  @keyframes stars {
+    0% {
+      transform: translateX(0) translateY(0);
+    }
+    100% {
+      transform: translateX(-1000px) translateY(1000px);
+    }
+  }
+  
+  .stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/29/09/08/space-1866959_960_720.jpg');
+    background-size: cover;
+    animation: stars 200s linear infinite;
+  }
+  
+  /* Adding some space particles */
+  .space-particles {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 10%, transparent 10%);
+    animation: particleMovement 10s linear infinite;
+  }
+  
+  /* Particle animation */
+  @keyframes particleMovement {
+    0% {
+      transform: translate(0, 0);
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+      transform: translate(100px, 100px);
+      opacity: 0.5;
+    }
+  }
+  body {
+    color: black;
+  } */
+  
+/* @media(min-width:600px){
+    body{
+        background: green;
+        color: white;
+    }
+} */
+/* @media all and (max-width:600px){
+    body{
+        background: green;
+        color: white;
+    }
+} */
+
+h1{
+    border: 2px solid rgb(0, 199, 10);
+    padding: 20px;
+}
+
+/* @media all and(orientation:landscape){
+    h1{
+        font-size: 80px;
+    }
+}
+@media all and(orientation:portrait){
+    h1{
+        font-size: 30px;
+    }
+} */
+
+@media(min-width:600px) and (max-width:900px){
+    img{
+        display: none;
+    }
+    p{
+        column-count: 2;
+    }
+}
