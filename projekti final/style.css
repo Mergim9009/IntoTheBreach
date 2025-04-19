@@ -99,15 +99,15 @@ footer{
     background-color: aqua;
 }
 body {
-    background-color: #1175e7;
+    background-color: rgb(30, 139, 139);
 }
 header{
-    color: aqua;
+    color: rgb(30, 139, 139);
 }
 /* General Body Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #070303;
     color: #333;
     line-height: 1.6;
     margin: 0;
@@ -147,7 +147,7 @@ header nav ul li a:hover {
 .container {
     width: 80%;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: rgb(14, 197, 197);
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -197,6 +197,38 @@ header nav ul li a:hover {
     padding: 10px;
     border-radius: 5px;
 }
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
 
+.contact-form label {
+    font-weight: bold;
+    color: #333;
+}
 
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #004a99;
+}
 

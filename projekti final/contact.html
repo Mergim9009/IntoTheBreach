@@ -3,20 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css"> <!-- Assuming you have one -->
 </head>
 <body>
-        <div class="container">
-            <header>
+    <div class="container">
+        <header>
             <nav>
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
+
+        <h1>Contact Us</h1>
+        <p>If you have any questions or feedback, feel free to reach out to us. Fill out the form below and we’ll get back to you as soon as possible.</p>
+
+        <form action="mailto:your-email@example.com" method="POST" enctype="text/plain" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com">
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" required placeholder="Write your message here..."></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
 </body>
 </html>
