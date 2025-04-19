@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="UTF-8">
+  <title>Football Gear & Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .product {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .product:hover {
+      transform: scale(1.03);
+    }
+
+    .product img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .product a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .product a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      
+  <h1>Football Gear & Services</h1>
+
+  <div class="product-grid">
+    <div class="product">
+      <img src="https://example.com/football.jpg" alt="Football">
+      <h3>Professional Football</h3>
+      <a href="https://example.com/football" target="_blank">View Product</a>
+    </div>
+
+    <div class="product">
+      <img src="football boots.avif" alt="Football Shoes">
+      <h3>Adidas Football Shoes</h3>
+      <a href="football boots.avif" target="_blank">View Product</a>
+    </div>
+
+    <div class="product">
+      <img src="https://example.com/training.jpg" alt="Training Service">
+      <h3>1-on-1 Training Session</h3>
+      <a href="https://example.com/training" target="_blank">Book Now</a>
+    </div>
+
+    <div class="product">
+      <img src="https://example.com/coach.jpg" alt="Coaching">
+      <h3>Online Football Coaching</h3>
+      <a href="https://example.com/coach" target="_blank">Learn More</a>
+    </div>
+
+    <div class="product">
+      <img src="https://example.com/jersey.jpg" alt="Jersey">
+      <h3>Custom Team Jersey</h3>
+      <a href="https://example.com/jersey" target="_blank">Buy Jersey</a>
+    </div>
+  </div>
+</body>
+</html>
