@@ -97,12 +97,13 @@ li a:hover:not(.active){
 footer{
     color: blue;
     background-color: aqua;
+    text-align: center;
 }
 body {
     background-color: rgb(30, 139, 139);
 }
 header{
-    color: rgb(30, 139, 139);
+    color: rgb(29, 141, 141);
 }
 /* General Body Styles */
 body {
@@ -171,7 +172,7 @@ header nav ul li a:hover {
 
 .section-title {
     font-size: 24px;
-    color: #0066cc;
+    color: #d84545;
     margin-bottom: 10px;
     font-weight: bold;
 }
@@ -200,13 +201,10 @@ header nav ul li a:hover {
 .contact-form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.contact-form label {
-    font-weight: bold;
-    color: #333;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .contact-form input,
@@ -215,6 +213,8 @@ header nav ul li a:hover {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: 50%;
+    margin-bottom: 15px;
 }
 
 .contact-form button {
@@ -232,3 +232,8 @@ header nav ul li a:hover {
     background-color: #004a99;
 }
 
+.img {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}

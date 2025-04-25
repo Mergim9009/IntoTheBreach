@@ -27,19 +27,56 @@
             margin-bottom: 20px;
             text-align: justify;
         }
-        
-        .logo{
-border: 2px rgb(109, 243, 20) solid;
-background-color: rgb(62, 206, 26);
+
+        .logo {
+            display: block;
+            margin: 30px auto;
+            border: 2px rgb(109, 243, 20) solid;
+            background-color: rgb(62, 206, 26);
+            border-radius: 10px;
+            padding: 10px;
         }
 
+        .quote-box {
+            background-color: #fff;
+            border-left: 6px solid #00796b;
+            padding: 20px;
+            margin: 30px auto;
+            width: 70%;
+            font-style: italic;
+            color: #333;
+        }
 
+        footer {
+            text-align: center;
+            color: blue;
+            background-color: aqua;
+            padding: 15px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav ul li.active a {
+            color: darkblue;
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <img src="logo.webp" width="300">
+       
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -48,6 +85,7 @@ background-color: rgb(62, 206, 26);
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+       
     </header>
 
     <section class="about-section">
@@ -55,6 +93,10 @@ background-color: rgb(62, 206, 26);
         <p>Welcome to <strong>Soccer Gear Shop</strong> – the home of everything football! We’re more than just a store; we’re a team dedicated to supporting players and fans at every level of the game.</p>
         <p>From professional-grade cleats and balls to training equipment, jerseys, and accessories – everything in our shop is picked to help you play better and feel proud doing it. Quality matters to us, and we only offer gear we’d wear on the pitch ourselves.</p>
         <p>Whether you're a rising star, a weekend warrior, or a die-hard fan, Soccer Gear Shop is here to keep your passion for the game alive. Gear up, and let’s make history together. ⚽</p>
+        
+        <div class="quote-box">
+            "Football is not just a game, it's a lifestyle. Live it. Love it. Play it."
+        </div>
     </section>
 
     <footer>
