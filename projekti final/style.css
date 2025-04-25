@@ -99,10 +99,136 @@ footer{
     background-color: aqua;
 }
 body {
-    background-color: #1175e7;
+    background-color: rgb(30, 139, 139);
 }
 header{
-    color: aqua;
+    color: rgb(30, 139, 139);
+}
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #070303;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
+/* Navigation Styles */
+header nav ul {
+    background-color: #333;
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li.active a {
+    font-weight: bold;
+    color: #ff6600;
+}
+
+header nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Container Styles */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(14, 197, 197);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog Content Styles */
+.blog-content h1 {
+    font-size: 36px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #0066cc;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.section ul {
+    margin-left: 20px;
+    color: #444;
+}
+
+.section ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.conclusion {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #004a99;
+}
 
