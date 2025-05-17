@@ -45,11 +45,11 @@ btn_circle.onclick = function(){
     circle.setAttribute("class", "shape_circle")
 }
 btn_rect.onclick = function(){
-    circle.setAttribute("class", "shape_rect")
+    rect.setAttribute("class", "shape_rect")
 }
 
 btn_triangle.onclick = function(){
-    circle.setAttribute("class", "shape_triangle")
+    triangle.setAttribute("class", "shape_triangle")
 }
 
 
