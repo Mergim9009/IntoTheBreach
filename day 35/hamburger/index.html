@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamburger</title>
-</head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
     
+    <nav>
+        <img src="digital.png" alt="logo" style="width: 120px; height: 60px" >
+        
+       <div id="links">
+        <a href="#">News</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+       </div>
+       <button class="icon" onclick="openMenu()">
+        <i class="fa fa-bars"></i>
+    </nav>
+
+    <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names...">
+
+    <ul id="myList">
+        <li>Albnori</li>
+        <li>Mergimi</li>
+        <li>Ilma</li>
+        <li>Bleard</li>
+        <li>Adi</li>
+        <li>Harisi</li>
+        <li>Elma</li>
+        <li>Dalamat</li>
+
+    </ul>
+
+     <script src="main.js"></script>
 </body>
 </html>
